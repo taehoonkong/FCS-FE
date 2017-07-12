@@ -48,6 +48,13 @@ Mac: Code > Preferences > Settings on Mac
 
 ```javascript
 module.exports = {
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "jquery": true
+    },
     "extends": "airbnb-base",
     "plugins": [ "import" ],
     "rules": {
@@ -55,14 +62,15 @@ module.exports = {
         "no-console": 1,
         "quotes": [ 2, "single" ],
         "no-underscore-dangle": 1,
-        "no-plusplus": [ 2, { "allowForLoopAfterthoughts": true }]
+        "no-plusplus": [ 2, { "allowForLoopAfterthoughts": true }],
+        "comma-dangle": [ 2, "never"]
     }
 };
 ```
 
 # 5. [option] eslint-plugin-html
 
-html 내의 자바스크립트에 eslint를 사용할 경우, 설치한다.
+html script 태그 내의 자바스크립트에도 eslint를 적용하고 싶은 경우, eslint-plugin-html 플러그인을 설치한다.
 
 ```bash
 $ npm install --save-dev eslint-plugin-html

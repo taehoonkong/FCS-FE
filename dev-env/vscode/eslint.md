@@ -86,6 +86,18 @@ module.exports = {
 };
 ```
 
+VSCode settings에 아래를 추가한다.
+
+아래의 설정을 추가한다.
+
+```json
+"eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html"
+]
+```
+
 # 5. Reference
 
 - [Getting Started with ESLint](http://eslint.org/docs/user-guide/getting-started)

@@ -1,4 +1,4 @@
-# FastCampus School - Front-end part
+# FastCampus School : Front-end part
 
 ## [Survey](https://goo.gl/forms/tnOcfJkUz5w3ICfm2)
 

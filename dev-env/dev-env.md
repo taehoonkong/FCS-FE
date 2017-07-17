@@ -31,6 +31,10 @@
 
 # 4. Tools
 
-## 4.1 Browsersync
+## 4.1 Emmet
+
+[cheatsheet](https://docs.emmet.io/cheat-sheet/)
+
+## 4.2 Browsersync
 
 [Browsersync](./tools/browsersync.md)

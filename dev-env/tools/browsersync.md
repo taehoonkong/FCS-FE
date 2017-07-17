@@ -16,7 +16,7 @@ $ browser-sync --version
 $ cd <project-folder>
 ## Browsersync Command Line Usage
 ## https://www.browsersync.io/docs/command-line
-$ browser-sync start --server --files ./
+$ browser-sync start --server --files "*.html, css/*.css, js/*.js"
 ```
 
 # 3. Reference

@@ -31,7 +31,7 @@ your globally-installed copy.
 
 # 3. VSCode settings
 
-Windows: File > Preferences > Settings 
+Windows: File > Preferences > Settings  
 Mac: Code > Preferences > Settings on Mac
 
 아래의 설정을 추가한다.

@@ -86,9 +86,7 @@ module.exports = {
 };
 ```
 
-VSCode settings에 아래를 추가한다.
-
-아래의 설정을 추가한다.
+VSCode settings에 아래를 설정을 추가한다.
 
 ```json
 "eslint.validate": [
